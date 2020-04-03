@@ -1,0 +1,120 @@
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.header{
+    background-image: url(../../asset/img/Hero.png);
+    text-align: center;
+    padding: 100px 0;
+    background-size: cover;
+}
+.header h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+#areaId{
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 3px #ffffff; 
+    border-radius: 5px;
+}
+
+
+/* 中間 */
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main .hotarea{
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    width: 800px;
+    padding: 20px;
+    margin-top: -30px;
+    background-color: #fff;
+}
+.hotarea .hotbtn{
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #fff;
+    background: #8A82CC;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hotarea .hotbtn:nth-child(n+2){
+    background-color: #FFA782;
+}
+.hotarea .hotbtn:nth-child(n+3){
+    background-color: #F5D005;
+}
+.hotarea .hotbtn:nth-child(n+4){
+    background-color: #559AC8;
+}
+.main #maintitle{
+    width: 1200px;
+    text-align: center;
+    color: #8A82CC;
+    font-size: 36px;
+    padding-top: 40px;
+    margin-top: 50px;
+    border-top: dashed 1px #559AC8;
+}
+.main .mainintro{
+    width: 1200px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main .introbox{
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    width: 48%;
+    margin: 20px 5px;
+    position: relative;
+    padding-bottom: 15px
+}
+.main .imgbox{
+    background-size: cover;
+    height: 155px;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+}
+.main .imgbox h5,.main .imgbox h6{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 16px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.main .imgbox h5{
+    left: 15px;
+    font-size: 24px;
+}
+.main .introbox p{
+ margin: 5px 15px 5px;
+ font-size: 16px;
+}
+.main .introbox p img{
+    width: 16px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.main .introbox .tag{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.main .introbox .phoneimg{
+    width: 12px;
+    margin-left: 3px;
+}
